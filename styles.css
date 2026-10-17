@@ -82,7 +82,6 @@ h3 { font-family: var(--title-font); font-size: 24px; line-height: 1.4; font-wei
 .project { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: start; }
 .project-image { display: block; overflow: hidden; aspect-ratio: 16 / 9; border-radius: 12px; background: var(--image-background); }
 .project-image img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(.16,1,.3,1); }
-.project:hover .project-image img { transform: scale(1.035); }
 .project-title { display: flex; align-items: baseline; gap: 12px; }
 .project-title h3 { font-size: 23px; line-height: 1.35; }
 .project-link { display: flex; flex-shrink: 0; align-self: flex-start; margin-top: 5px; color: var(--muted); }
@@ -133,3 +132,5 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 28px
   html { scroll-behavior: auto; }
   .project-image img { transition: none; }
 }
+
+img { -webkit-user-drag: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }

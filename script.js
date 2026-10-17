@@ -15,3 +15,10 @@ toggle.addEventListener('click', () => {
   syncThemeButton();
 });
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Suppress image dragging and the native image save menu without affecting text or links.
+for (const eventName of ['dragstart', 'contextmenu']) {
+  document.addEventListener(eventName, (event) => {
+    if (event.target instanceof HTMLImageElement) event.preventDefault();
+  });
+}
