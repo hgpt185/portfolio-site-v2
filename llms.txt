@@ -4,12 +4,12 @@
 
 ## Sections
 
-- [Website (canonical)](https://hgpt185.github.io/portfolio-site-v2/)
-- [About](https://hgpt185.github.io/portfolio-site-v2/#about)
-- [Experience](https://hgpt185.github.io/portfolio-site-v2/#experience)
-- [Education](https://hgpt185.github.io/portfolio-site-v2/#education)
-- [Projects](https://hgpt185.github.io/portfolio-site-v2/#projects)
-- [Contact](https://hgpt185.github.io/portfolio-site-v2/#contact)
+- [Website (canonical)](https://hemeshgupta.com/)
+- [About](https://hemeshgupta.com/#about)
+- [Experience](https://hemeshgupta.com/#experience)
+- [Education](https://hemeshgupta.com/#education)
+- [Projects](https://hemeshgupta.com/#projects)
+- [Contact](https://hemeshgupta.com/#contact)
 
 ## Resume
 
@@ -17,8 +17,8 @@
 
 ## Full content
 
-- [llms-full.txt](https://hgpt185.github.io/portfolio-site-v2/llms-full.txt) — comprehensive Markdown mirror of this website
-- [profile.json](https://hgpt185.github.io/portfolio-site-v2/profile.json) — machine-readable profile (JSON)
+- [llms-full.txt](https://hemeshgupta.com/llms-full.txt) — comprehensive Markdown mirror of this website
+- [profile.json](https://hemeshgupta.com/profile.json) — machine-readable profile (JSON)
 
 ## Profiles
 

@@ -1,6 +1,6 @@
 # Hemesh Gupta — Software Engineer
 
-Canonical website: https://hgpt185.github.io/portfolio-site-v2/
+Canonical website: https://hemeshgupta.com/
 
 Recruiter-friendly HTML resume: https://hgpt185.github.io/portfolio-site-v2/resume.html
 
@@ -79,6 +79,6 @@ Automated a full regression suite using Selenium and Pytest, replacing hours of 
 
 ## Machine-readable references
 
-- llms.txt: https://hgpt185.github.io/portfolio-site-v2/llms.txt
-- profile.json: https://hgpt185.github.io/portfolio-site-v2/profile.json
-- Canonical page: https://hgpt185.github.io/portfolio-site-v2/
+- llms.txt: https://hemeshgupta.com/llms.txt
+- profile.json: https://hemeshgupta.com/profile.json
+- Canonical page: https://hemeshgupta.com/

@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CANONICAL = "https://hgpt185.github.io/portfolio-site-v2/"
+CANONICAL = "https://hemeshgupta.com/"
 REQUIRED_FILES = [
     "index.html", "robots.txt", "sitemap.xml",
     "llms.txt", "llms-full.txt", "profile.json", "resume.html",

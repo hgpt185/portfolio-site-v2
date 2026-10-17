@@ -2,11 +2,11 @@
 
 Hemesh Gupta's portfolio, closely following the banner, overlapping portrait, typography, spacing, and two-column project layout of [adityayadav.website](https://www.adityayadav.website/). Content comes from hemeshgupta.site.
 
-**Live:** https://hgpt185.github.io/portfolio-site-v2/
+**Live:** https://hemeshgupta.com/
 
 About, Experience, Education, Projects, Contact; responsive mobile layout; persistent dark/light themes; accessible social and source-code links. Static HTML/CSS/JavaScript, with no build step.
 
-> **Canonical URL note:** this repo deploys to `https://hgpt185.github.io/portfolio-site-v2/`. `hemeshgupta.site` is a separate site not managed by this repository. All metadata, sitemap, and `llms.txt` references use the GitHub Pages URL as canonical.
+> **Canonical URL note:** this repo deploys to `https://hemeshgupta.com/`. `hemeshgupta.site` is a separate site not managed by this repository. All metadata, sitemap, and `llms.txt` references use the GitHub Pages URL as canonical.
 
 ## Preview
 
@@ -38,7 +38,7 @@ Checks: required files exist, `profile.json` parses, JSON-LD parses and describe
 
 ## Edit and deploy
 
-Content is in `index.html`; `content.json` preserves the original source data (now includes education). Styles are in `styles.css`, and theme behavior in `script.js`. GitHub Pages deploys `main` from `/ (root)`.
+Content is in `index.html`; `content.json` preserves the original source data (now includes education). Styles are in `styles.css`, and theme behavior in `script.js`. Vercel deploys `main` from `/ (root)`; `CNAME` sets the custom domain.
 
 Manual follow-up (outside the repo):
 - Submit `sitemap.xml` in Google Search Console and Bing Webmaster Tools.
