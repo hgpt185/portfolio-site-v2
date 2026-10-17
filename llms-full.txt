@@ -61,6 +61,7 @@ Automated a full regression suite using Selenium and Pytest, replacing hours of 
 
 - GitHub: https://github.com/hgpt185
 - LinkedIn: https://www.linkedin.com/in/hemeshgupta/
+- X (Twitter): https://x.com/hemeshgpt
 - Email: hgpt185@gmail.com
 
 ## Contact

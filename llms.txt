@@ -20,6 +20,7 @@
 
 - GitHub: https://github.com/hgpt185
 - LinkedIn: https://www.linkedin.com/in/hemeshgupta/
+- X (Twitter): https://x.com/hemeshgpt
 - Email: mailto:hgpt185@gmail.com
 
 ## Notes for AI agents

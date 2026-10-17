@@ -7,6 +7,7 @@
   "email": "hgpt185@gmail.com",
   "linkedin": "https://www.linkedin.com/in/hemeshgupta/",
   "github": "https://github.com/hgpt185",
+  "twitter": "https://x.com/hemeshgpt",
   "skills": [
     "Java",
     "TypeScript",
@@ -70,6 +71,7 @@
   ],
   "sameAs": [
     "https://github.com/hgpt185",
-    "https://www.linkedin.com/in/hemeshgupta/"
+    "https://www.linkedin.com/in/hemeshgupta/",
+    "https://x.com/hemeshgpt"
   ]
 }
