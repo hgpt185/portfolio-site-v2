@@ -74,12 +74,9 @@ h3 { font-family: var(--title-font); font-size: 24px; line-height: 1.4; font-wei
 .job-period { font-size: 12px; white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
 .job-description { font-size: 14px; line-height: 1.75; margin-top: 14px; color: var(--body); }
 .school-grade { font-size: 12px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; }
-.job-roles { display: grid; gap: 14px; margin-top: 12px; }
-.job-role-item { position: relative; padding-left: 18px; }
-.job-role-item::before { content: ""; position: absolute; left: 4px; top: 7px; bottom: 5px; width: 1px; background: var(--rule); }
-.job-role-item::after { content: ""; position: absolute; left: 1px; top: 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
-.job-role-title { color: var(--body); font-size: 15px; line-height: 1.5; font-weight: 500; }
-.job-role-period { margin-top: 2px; color: var(--muted); font-size: 12px; }
+.job-roles { display: grid; gap: 12px; margin-top: 3px; }
+.job-role-title { color: var(--body); font-size: 14px; }
+.job-role-period { margin-top: 2px; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 .projects-section h2 { margin-bottom: 40px; }
 .projects { display: grid; gap: 80px; }
 .project { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: start; }
@@ -126,7 +123,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 28px
   .banner { height: 180px; }
   .job-heading { display: block; }
   .job-period { margin-top: 8px; }
-  .job-roles { margin-top: 14px; }
+  .job-roles { margin-top: 12px; }
   .about-copy { font-size: 16px; }
   .about-meta { font-size: 11px; gap: 14px; }
   .about-meta span + span { padding-left: 14px; }

@@ -193,7 +193,7 @@ A compact icon button sits at the banner's top-right inset (16px). The sun appea
 Social navigation is a row of inline SVG icons (24px) with a (24px) gap; it centers on mobile. The contact section pairs a short intro with a flat, rule-separated list of email, social, and location details; it stacks on mobile. Contact links gain an underline on hover. Hover uses the active accent. Links and buttons share an accent outline (2px) offset by (5px) for keyboard focus. The skip link becomes visible on focus.
 
 ### Experience entries
-Plain full-width text entries pair company and role with a right-aligned date on desktop. Descriptions use compact, relaxed leading. Divider and spacing establish grouping without card backgrounds.
+Plain full-width text entries pair company and role with a right-aligned date on desktop. For multiple designations at one company, the company row shows the overall tenure, followed by plain stacked roles with each role’s dates directly underneath. The shared description sits below all roles and spans the full entry width. Descriptions use compact, relaxed leading. Divider and spacing establish grouping without card backgrounds.
 
 ### Project rows
 Each image, title, and source icon links to the real repository. Title and source icon share a baseline; the icon is (20px). Descriptions and a wrapping technology list follow. Technology labels are plain muted text, not pill chips. On row hover, the image scales to (1.035) over (500ms) using `cubic-bezier(.16,1,.3,1)`. Reduced motion removes the transition and changes smooth scrolling to automatic.
