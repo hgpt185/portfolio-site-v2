@@ -17,6 +17,8 @@ colors:
   rule-light: "#d1d5db"
   image-light: "#f3f4f6"
   selection: "#c27f58"
+  selection-light: "#f4cfaa"
+  selection-text-light: "#3b281e"
   toggle-background: "#19181ae8"
   toggle-hover: "#302b2a"
 typography:
@@ -143,7 +145,7 @@ The palette pairs charcoal or clean white with cool neutral text and a restraine
 
 ### Primary
 - **Warm Peach / Burnt Sienna:** `accent-dark` and `accent-light` color hovered links and keyboard focus.
-- **Copper Selection:** `selection` provides the text-selection background with white selected text.
+- **Copper / Apricot Selection:** dark mode uses `selection` with white text; light mode uses `selection-light` with `selection-text-light`, matching the sunrise portrait backdrop.
 
 ### Neutral
 - **Charcoal / White:** background tokens cover the page; foreground tokens carry titles.
@@ -197,7 +199,7 @@ Plain full-width text entries pair company and role with a right-aligned date on
 Each image, title, and source icon links to the real repository. Title and source icon share a baseline; the icon is (20px). Descriptions and a wrapping technology list follow. Technology labels are plain muted text, not pill chips. On row hover, the image scales to (1.035) over (500ms) using `cubic-bezier(.16,1,.3,1)`. Reduced motion removes the transition and changes smooth scrolling to automatic.
 
 ### Identity masthead
-Use assets/mountain-dusk.jpg for the cover and assets/hemesh-gupta.jpg for the optimized supplied portrait. Preserve the documented overlap and circular crop. The header contains identity and social links; it has no separate menu bar.
+Use assets/mountain-dusk.jpg and assets/hemesh-gupta.jpg in dark mode. In light mode, use assets/mountain-sunrise.jpg and assets/hemesh-gupta-sunrise.jpg: the portrait has a warm apricot backdrop matching the dawn sky. CSS follows the persisted theme before the first render. Preserve the documented overlap and circular crop. The header contains identity and social links; it has no separate menu bar.
 
 ## Do's and Don'ts
 

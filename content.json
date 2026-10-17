@@ -6,6 +6,7 @@
     "email": "hgpt185@gmail.com",
     "linkedin": "https://www.linkedin.com/in/hemeshgupta/",
     "github": "https://github.com/hgpt185",
+    "x": "https://x.com/hemeshgpt",
     "bio": "Building resilient backend systems and cloud-native architectures. Currently shipping licensing infrastructure at Tableau, Salesforce."
   },
   "about": {
@@ -37,6 +38,7 @@
     {
       "company": "Salesforce",
       "role": "Software Engineer II",
+      "previousRole": "Software Engineer I",
       "period": "July 2024 - Present",
       "description": "Started with Tableau Cloud Manager's User Service, building user lifecycle APIs, saga-based sync to Tableau Pods, bulk operations via Step Functions, and license consumption tracking on multi-region DynamoDB. Then moved to Tableau's Licensing team, working across different licensing services to ship activation, lease management, and freemium licensing."
     },

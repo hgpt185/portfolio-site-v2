@@ -7,6 +7,8 @@
   --rule: #374151;
   --image-background: #242328;
   --accent: #e6ab89;
+  --selection-background: #c27f58;
+  --selection-text: #fff;
   --title-font: 'Poppins', sans-serif;
   --body-font: 'Inter', sans-serif;
   --section-font: 'Bebas Neue', sans-serif;
@@ -20,6 +22,8 @@ html[data-theme='light'] {
   --rule: #d1d5db;
   --image-background: #f3f4f6;
   --accent: #93502d;
+  --selection-background: #f4cfaa;
+  --selection-text: #3b281e;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 32px; }
@@ -29,7 +33,7 @@ a:hover { color: var(--accent); }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; }
-::selection { background: #c27f58; color: #fff; }
+::selection { background: var(--selection-background); color: var(--selection-text); }
 html { scrollbar-color: var(--rule) var(--background); }
 .skip-link { position: fixed; top: -60px; left: 16px; padding: 8px 16px; background: var(--background); z-index: 10; }
 .skip-link:focus { top: 8px; }
@@ -51,6 +55,9 @@ h1 { font-family: var(--title-font); font-size: 48px; line-height: 1.2; letter-s
 .icon { width: 24px; height: 24px; display: block; flex-shrink: 0; }
 .portrait { flex-shrink: 0; margin-top: -96px; }
 .portrait img { display: block; width: 192px; height: 192px; border-radius: 50%; object-fit: cover; border: 4px solid var(--background); box-shadow: 0 14px 22px -10px #0007; }
+.banner > .theme-light, .portrait > .theme-light { display: none; }
+html[data-theme='light'] .theme-light { display: block; }
+html[data-theme='light'] .theme-dark { display: none; }
 .section { padding: 62px 16px 44px; border-bottom: 1px solid var(--rule); }
 h2 { margin: 0 0 24px; font-family: var(--section-font); font-size: 36px; line-height: 1.12; letter-spacing: .025em; font-weight: 400; }
 p { margin: 0; }
@@ -67,6 +74,12 @@ h3 { font-family: var(--title-font); font-size: 24px; line-height: 1.4; font-wei
 .job-period { font-size: 12px; white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
 .job-description { font-size: 14px; line-height: 1.75; margin-top: 14px; color: var(--body); }
 .school-grade { font-size: 12px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; }
+.job-roles { display: grid; gap: 14px; margin-top: 12px; }
+.job-role-item { position: relative; padding-left: 18px; }
+.job-role-item::before { content: ""; position: absolute; left: 4px; top: 7px; bottom: 5px; width: 1px; background: var(--rule); }
+.job-role-item::after { content: ""; position: absolute; left: 1px; top: 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.job-role-title { color: var(--body); font-size: 15px; line-height: 1.5; font-weight: 500; }
+.job-role-period { margin-top: 2px; color: var(--muted); font-size: 12px; }
 .projects-section h2 { margin-bottom: 40px; }
 .projects { display: grid; gap: 80px; }
 .project { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: start; }
@@ -107,6 +120,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 28px
   .banner { height: 180px; }
   .job-heading { display: block; }
   .job-period { margin-top: 8px; }
+  .job-roles { margin-top: 14px; }
   .about-copy { font-size: 16px; }
   .about-meta { font-size: 11px; gap: 14px; }
   .about-meta span + span { padding-left: 14px; }
