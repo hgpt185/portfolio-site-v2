@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CANONICAL = "https://hgpt185.github.io/portfolio-site-v2/"
 REQUIRED_FILES = [
     "index.html", "robots.txt", "sitemap.xml",
-    "llms.txt", "llms-full.txt", "profile.json",
+    "llms.txt", "llms-full.txt", "profile.json", "resume.html",
 ]
 
 failures = []
@@ -96,7 +96,7 @@ def main():
         tree = ET.parse(ROOT / "sitemap.xml")
         ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
         locs = [e.text for e in tree.getroot().findall("sm:url/sm:loc", ns)]
-        check("sitemap.xml parses with canonical URL", locs == [CANONICAL], str(locs))
+        check("sitemap.xml parses with canonical URL", locs == [CANONICAL, CANONICAL + "resume.html"], str(locs))
     except Exception as exc:
         check("sitemap.xml parses", False, str(exc))
 
@@ -108,6 +108,19 @@ def main():
     # 10. Machine-readable profile is discoverable from the page
     check("index.html links profile.json",
           'rel="alternate" type="application/json" href="profile.json"' in html)
+
+    # 11. Recruiter-facing HTML resume and consistent internship dates
+    resume = (ROOT / "resume.html").read_text(encoding="utf-8")
+    check("resume page has canonical URL", CANONICAL + "resume.html" in resume)
+    check("homepage visibly links resume", 'href="resume.html">View accessible resume' in html)
+    check("Salesforce internship dates corrected in HTML",
+          'May 2023 - Jul 2023' in html)
+    check("Salesforce internship dates corrected in structured data",
+          any(x.get("company") == "Salesforce" and "Intern" in x.get("role", "")
+              and x.get("period") == "May 2023 - Jul 2023"
+              for x in profile.get("experience", [])))
+    check("full AI profile dates corrected",
+          "Salesforce — Software Development Intern (May 2023 – Jul 2023)" in (ROOT / "llms-full.txt").read_text(encoding="utf-8"))
 
     print()
     if failures:
