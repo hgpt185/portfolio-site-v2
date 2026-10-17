@@ -24,6 +24,11 @@ Software Engineer II at Salesforce, Bengaluru, building backend systems for Tabl
 - Software Engineer I (July 2024 – Jan 2026)
 Started with Tableau Cloud Manager's User Service, building user lifecycle APIs, saga-based sync to Tableau Pods, bulk operations via Step Functions, and license consumption tracking on multi-region DynamoDB. Then moved to Tableau's Licensing team, working across different licensing services to ship activation, lease management, and freemium licensing.
 
+Selected Salesforce engineering work:
+- Architected a cloud-native license token provisioning service on Salesforce Hyperforce with sub-100 ms p99 latency.
+- Led a zero-downtime migration of enterprise licensing data from legacy AWS infrastructure to Hyperforce.
+- Developed licensing backend capabilities supporting over 170,000 freemium users.
+
 ### Porter — Software Development Intern (Jan 2024 – Jun 2024)
 Part of the Customer Growth & Engagement team. Built backend services powering cashback, referrals, and transactional flows that scaled to production traffic. Ktor, Dagger, clean APIs, and zero P0s across the internship.
 
