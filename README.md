@@ -1,17 +1,17 @@
 # portfolio-site-v2
 
-Hemesh Gupta's personal portfolio. A responsive, static website inspired by the simple banner-and-sections layout of adityayadav.website, using content from hemeshgupta.site.
+Hemesh Gupta's portfolio, closely following the banner, overlapping portrait, typography, spacing, and two-column project layout of [adityayadav.website](https://www.adityayadav.website/). Content comes from hemeshgupta.site.
 
-Includes About, Experience, Projects, and Contact; persistent light/dark themes; keyboard navigation; and mobile layouts. No build step or runtime dependencies.
+**Live:** https://hgpt185.github.io/portfolio-site-v2/
+
+About, Experience, Projects, Contact; responsive mobile layout; persistent dark/light themes; accessible social and source-code links. Static HTML/CSS/JavaScript, with no build step.
 
 ## Preview
 
-Run `python3 -m http.server 8000` in this directory and open http://localhost:8000.
+Run `python3 -m http.server 8000` and open http://localhost:8000, or open `index.html` directly.
 
-## Deploy
+## Edit and deploy
 
-GitHub Pages: deploy from branch `main`, folder `/ (root)`.
+Content is in `index.html`; `content.json` preserves the original source data. Styles are in `styles.css`, and theme behavior in `script.js`. GitHub Pages deploys `main` from `/ (root)`.
 
-## Edit
-
-The rendered content is in `index.html`, styles in `styles.css`, and theme behavior in `script.js`. `content.json` retains the original content for reference; editing it alone does not regenerate the page.
+Impeccable is installed locally under `.agents/skills/impeccable/` (ignored by Git); its optional engine needs network access. Product constraints are in `PRODUCT.md`; the design specification is in `DESIGN.md`. Asset provenance and the banner generation prompt are in `assets/SOURCES.md`.

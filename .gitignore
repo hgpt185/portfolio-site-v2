@@ -1,0 +1,5 @@
+.DS_Store
+.agents/
+.impeccable/review/
+.impeccable/cache/
+.impeccable/config.local.json

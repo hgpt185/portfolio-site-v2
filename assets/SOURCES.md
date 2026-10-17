@@ -1,0 +1,6 @@
+# Asset sources
+
+- `hemesh-gupta.jpg`: optimized copy of the user-supplied `/Users/hemeshgupta/Downloads/IMG_4956.PNG`; no visual changes beyond resizing and JPEG encoding.
+- `original-portfolio.png`: screenshot from the local source of hemeshgupta.site (`personal-website/public/website-screenshot.png`).
+- Project photographs: the same Unsplash URLs supplied in the source site's `projects.json`; decorative, illustrative photos, not screenshots of project interfaces.
+- `mountain-dusk.jpg`: generated with the built-in ImageGen tool. Prompt: "Use case: photorealistic-natural. Asset type: wide portfolio website header photograph. Create a cinematic panoramic photograph of layered mountain silhouettes at dusk, warm burnt-orange and muted amber sky fading into soft charcoal-blue ridges, a few delicate clouds. Thoughtful, calm, analog 35mm photography with subtle natural grain. Wide 3:1 landscape composition, distant ridgelines fill the lower half, open sunset sky in upper half. This header sits above a portrait with a terracotta-orange circular background, so harmonize with warm orange and dark charcoal. No people, no buildings, no text, no typography, no logos, no watermark. It should look like a real landscape photograph, not digital art or a gradient. Save the generated image as a project asset; do not create a website mockup."
