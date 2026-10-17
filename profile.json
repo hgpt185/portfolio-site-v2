@@ -30,25 +30,40 @@
       "period": "Feb 2026 - Present",
       "previousRole": "Software Engineer I",
       "previousRolePeriod": "July 2024 - Jan 2026",
-      "description": "Backend systems for Tableau Licensing Services: licensing infrastructure, user services, and cloud migrations."
+      "description": "Backend systems for Tableau Licensing Services: licensing infrastructure, user services, and cloud migrations.",
+      "startDate": "2024-07",
+      "promotedToCurrentRole": "2026-02",
+      "technologies": [
+        "AWS",
+        "DynamoDB",
+        "AWS Step Functions",
+        "Ktor",
+        "Distributed systems"
+      ]
     },
     {
       "company": "Porter",
       "role": "Software Development Intern",
       "period": "Jan 2024 - June 2024",
-      "description": "Backend services for cashback, referrals, and transactional flows (Ktor, Dagger)."
+      "description": "Backend services for cashback, referrals, and transactional flows (Ktor, Dagger).",
+      "startDate": "2024-01",
+      "endDate": "2024-06"
     },
     {
       "company": "Salesforce",
       "role": "Software Development Intern",
-      "period": "Jan 2024 - June 2024",
-      "description": "Config drift detection pipeline for Tableau Cloud pods (GitLab, S3, GUS, Slack)."
+      "period": "May 2023 - Jul 2023",
+      "description": "Config drift detection pipeline for Tableau Cloud pods (GitLab, S3, GUS, Slack).",
+      "startDate": "2023-05",
+      "endDate": "2023-07"
     },
     {
       "company": "Samsung",
       "role": "Software Development Intern",
       "period": "May 2022 - Jul 2022",
-      "description": "Automated regression suite with Selenium and Pytest."
+      "description": "Automated regression suite with Selenium and Pytest.",
+      "startDate": "2022-05",
+      "endDate": "2022-07"
     }
   ],
   "education": [
@@ -61,17 +76,79 @@
     }
   ],
   "projects": [
-    { "title": "Real-Time Collaborative Editor", "url": "https://github.com/hgpt185/google-docs-clone", "tags": ["TypeScript", "Socket.io", "MongoDB", "React"] },
-    { "title": "ERPLAG Compiler", "url": "https://github.com/hgpt185/ERPLANG-Compiler", "tags": ["C", "Compilers", "Systems", "Parsers"] },
-    { "title": "chotu: URL Shortener", "url": "https://github.com/hgpt185/chotu", "tags": ["Java", "Spring Boot", "REST API"] },
-    { "title": "ASCII Image Converter", "url": "https://github.com/hgpt185/AsciiImage", "tags": ["Python", "Django", "REST API", "Image Processing"] },
-    { "title": "Spring Boot E-Commerce API", "url": "https://github.com/hgpt185/spring-boot-ecom-proj", "tags": ["Java", "Spring Boot", "REST API", "Maven"] },
-    { "title": "Packet Sniffer", "url": "https://github.com/hgpt185/Packet-Sniffer", "tags": ["Java", "Networking", "Systems"] },
-    { "title": "Personal Website", "url": "https://github.com/hgpt185/hemesh-gupta-software-engineer", "tags": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"] }
+    {
+      "title": "Real-Time Collaborative Editor",
+      "url": "https://github.com/hgpt185/google-docs-clone",
+      "tags": [
+        "TypeScript",
+        "Socket.io",
+        "MongoDB",
+        "React"
+      ]
+    },
+    {
+      "title": "ERPLAG Compiler",
+      "url": "https://github.com/hgpt185/ERPLANG-Compiler",
+      "tags": [
+        "C",
+        "Compilers",
+        "Systems",
+        "Parsers"
+      ]
+    },
+    {
+      "title": "chotu: URL Shortener",
+      "url": "https://github.com/hgpt185/chotu",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "REST API"
+      ]
+    },
+    {
+      "title": "ASCII Image Converter",
+      "url": "https://github.com/hgpt185/AsciiImage",
+      "tags": [
+        "Python",
+        "Django",
+        "REST API",
+        "Image Processing"
+      ]
+    },
+    {
+      "title": "Spring Boot E-Commerce API",
+      "url": "https://github.com/hgpt185/spring-boot-ecom-proj",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "REST API",
+        "Maven"
+      ]
+    },
+    {
+      "title": "Packet Sniffer",
+      "url": "https://github.com/hgpt185/Packet-Sniffer",
+      "tags": [
+        "Java",
+        "Networking",
+        "Systems"
+      ]
+    },
+    {
+      "title": "Personal Website",
+      "url": "https://github.com/hgpt185/hemesh-gupta-software-engineer",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion"
+      ]
+    }
   ],
   "sameAs": [
     "https://github.com/hgpt185",
     "https://www.linkedin.com/in/hemeshgupta/",
     "https://x.com/hemeshgpt"
-  ]
+  ],
+  "resumeHtml": "https://hgpt185.github.io/portfolio-site-v2/resume.html"
 }
