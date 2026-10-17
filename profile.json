@@ -30,7 +30,7 @@
       "period": "Feb 2026 - Present",
       "previousRole": "Software Engineer I",
       "previousRolePeriod": "July 2024 - Jan 2026",
-      "description": "Backend systems for Tableau Licensing Services: licensing infrastructure, user services, and cloud migrations.",
+      "description": "Backend engineering across Tableau Licensing Services and Tableau Cloud Manager User Service, including cloud-native license provisioning, enterprise migrations, freemium licensing, and user lifecycle services.",
       "startDate": "2024-07",
       "promotedToCurrentRole": "2026-02",
       "technologies": [
@@ -38,7 +38,16 @@
         "DynamoDB",
         "AWS Step Functions",
         "Ktor",
-        "Distributed systems"
+        "Distributed systems",
+        "Salesforce Hyperforce",
+        "KMS",
+        "Vault",
+        "Bazel"
+      ],
+      "highlights": [
+        "Architected a cloud-native license token provisioning service on Salesforce Hyperforce with sub-100 ms p99 latency.",
+        "Led a zero-downtime migration of enterprise licensing data from legacy AWS infrastructure to Hyperforce.",
+        "Developed licensing backend capabilities supporting over 170,000 freemium users."
       ]
     },
     {
