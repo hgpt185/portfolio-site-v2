@@ -63,8 +63,7 @@ h2 { margin: 0 0 24px; font-family: var(--section-font); font-size: 36px; line-h
 p { margin: 0; }
 .about-copy { font-size: 18px; line-height: 1.625; color: var(--body); }
 .about-copy p + p { margin-top: 18px; }
-.about-meta { display: flex; gap: 24px; margin-top: 24px; font-size: 12px; color: var(--muted); }
-.about-meta span + span { padding-left: 24px; border-left: 1px solid var(--rule); }
+.about-meta { margin-top: 24px; font-size: 12px; line-height: 1.6; color: var(--muted); }
 .jobs { display: grid; gap: 32px; }
 .job { padding-bottom: 30px; border-bottom: 1px solid var(--rule); }
 .job:last-child { padding-bottom: 0; border: 0; }
@@ -125,8 +124,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 28px
   .job-period { margin-top: 8px; }
   .job-roles { margin-top: 12px; }
   .about-copy { font-size: 16px; }
-  .about-meta { font-size: 11px; gap: 14px; }
-  .about-meta span + span { padding-left: 14px; }
+  .about-meta { font-size: 11px; }
   .contact dl { font-size: 14px; }
   .project-title h3 { font-size: 21px; }
   footer { padding-left: 10px; padding-right: 10px; }
