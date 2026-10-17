@@ -92,11 +92,16 @@ h3 { font-family: var(--title-font); font-size: 24px; line-height: 1.4; font-wei
 .project-link .icon { width: 20px; height: 20px; }
 .project-info > p { font-size: 14px; line-height: 1.65; margin-top: 12px; color: var(--body); }
 .project-tags { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 12px; margin: 14px 0 0; font-size: 10px; color: var(--muted); }
-.contact > p { color: var(--body); font-size: 16px; margin-bottom: 20px; }
-.contact dl { margin: 0; color: var(--body); font-size: 15px; }
-.contact dl > div { display: flex; gap: 8px; margin-top: 10px; }
-.contact dd { margin: 0; }
-.contact a { text-decoration: underline; text-decoration-color: var(--rule); }
+.contact { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: start; gap: 32px 64px; }
+.contact-intro h2 { margin-bottom: 16px; }
+.contact-intro p { max-width: 34ch; color: var(--body); font-size: 16px; line-height: 1.7; }
+.contact-details { display: grid; margin: 0; }
+.contact-details > div { display: grid; grid-template-columns: 92px minmax(0, 1fr); align-items: center; gap: 16px; min-height: 62px; border-top: 1px solid var(--rule); }
+.contact-details > div:last-child { border-bottom: 1px solid var(--rule); }
+.contact dt { color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.contact dd { min-width: 0; margin: 0; color: var(--body); font-size: 14px; overflow-wrap: anywhere; }
+.contact a { display: inline-flex; min-height: 44px; align-items: center; font-weight: 500; text-decoration: none; text-underline-offset: 4px; }
+.contact a:hover { text-decoration: underline; text-decoration-color: currentColor; }
 footer { display: flex; justify-content: space-between; gap: 20px; padding: 28px 16px 0; color: var(--muted); font-size: 11px; }
 @media (max-width: 767px) {
   .portfolio { padding-top: 40px; }
@@ -110,6 +115,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 28px
   .intro { padding-bottom: 36px; }
   .section { padding-top: 48px; padding-bottom: 36px; }
   .project { grid-template-columns: 1fr; gap: 24px; }
+  .contact { grid-template-columns: 1fr; gap: 24px; }
   .project-title { justify-content: center; }
   .project-info > p { text-align: left; }
   .projects { gap: 64px; }
