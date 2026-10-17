@@ -64,6 +64,7 @@ p { margin: 0; }
 .about-copy { font-size: 18px; line-height: 1.625; color: var(--body); }
 .about-copy p + p { margin-top: 18px; }
 .about-meta { margin-top: 24px; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.about-meta-separator { margin: 0 4px; }
 .jobs { display: grid; gap: 32px; }
 .job { padding-bottom: 30px; border-bottom: 1px solid var(--rule); }
 .job:last-child { padding-bottom: 0; border: 0; }
