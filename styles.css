@@ -66,6 +66,7 @@ h3 { font-family: var(--title-font); font-size: 24px; line-height: 1.4; font-wei
 .job-role { font-size: 14px; margin-top: 3px; color: var(--body); }
 .job-period { font-size: 12px; white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
 .job-description { font-size: 14px; line-height: 1.75; margin-top: 14px; color: var(--body); }
+.school-grade { font-size: 12px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; }
 .projects-section h2 { margin-bottom: 40px; }
 .projects { display: grid; gap: 80px; }
 .project { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: start; }

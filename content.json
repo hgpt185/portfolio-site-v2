@@ -59,6 +59,16 @@
       "description": "Automated a full regression suite using Selenium and Pytest, replacing hours of manual QA effort per cycle. Cut regression turnaround significantly and freed the team to focus on shipping instead of re-testing."
     }
   ],
+  "education": [
+    {
+      "institution": "Birla Institute of Technology and Science, Pilani",
+      "degree": "Bachelor of Engineering (BE), Computer Science",
+      "campus": "Pilani Campus",
+      "period": "Nov 2020 - Jul 2024",
+      "grade": "8.5/10",
+      "description": "Graduated from the Pilani campus with a strong foundation in software development, problem-solving, and innovation — applied through coursework, side projects, and a from-scratch ERPLAG compiler."
+    }
+  ],
   "projects": [
     {
       "title": "Real-Time Collaborative Editor",

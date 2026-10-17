@@ -1,0 +1,72 @@
+{
+  "name": "Hemesh Gupta",
+  "title": "Software Engineer II at Salesforce",
+  "description": "Software Engineer II at Salesforce, Bengaluru, building backend systems for Tableau Licensing Services. CS graduate of BITS Pilani.",
+  "url": "https://hgpt185.github.io/portfolio-site-v2/",
+  "location": "Bengaluru, India",
+  "email": "hgpt185@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/hemeshgupta/",
+  "github": "https://github.com/hgpt185",
+  "skills": [
+    "Java",
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "C",
+    "Spring Boot",
+    "Ktor",
+    "React",
+    "MongoDB",
+    "DynamoDB",
+    "REST APIs",
+    "Distributed systems"
+  ],
+  "experience": [
+    {
+      "company": "Salesforce",
+      "role": "Software Engineer II",
+      "period": "July 2024 - Present",
+      "description": "Backend systems for Tableau Licensing Services: licensing infrastructure, user services, and cloud migrations."
+    },
+    {
+      "company": "Porter",
+      "role": "Software Development Intern",
+      "period": "Jan 2024 - June 2024",
+      "description": "Backend services for cashback, referrals, and transactional flows (Ktor, Dagger)."
+    },
+    {
+      "company": "Salesforce",
+      "role": "Software Development Intern",
+      "period": "Jan 2024 - June 2024",
+      "description": "Config drift detection pipeline for Tableau Cloud pods (GitLab, S3, GUS, Slack)."
+    },
+    {
+      "company": "Samsung",
+      "role": "Software Development Intern",
+      "period": "May 2022 - Jul 2022",
+      "description": "Automated regression suite with Selenium and Pytest."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Birla Institute of Technology and Science, Pilani",
+      "degree": "Bachelor of Engineering (BE), Computer Science",
+      "campus": "Pilani Campus",
+      "period": "Nov 2020 - Jul 2024",
+      "grade": "8.5/10"
+    }
+  ],
+  "projects": [
+    { "title": "Real-Time Collaborative Editor", "url": "https://github.com/hgpt185/google-docs-clone", "tags": ["TypeScript", "Socket.io", "MongoDB", "React"] },
+    { "title": "ERPLAG Compiler", "url": "https://github.com/hgpt185/ERPLANG-Compiler", "tags": ["C", "Compilers", "Systems", "Parsers"] },
+    { "title": "chotu: URL Shortener", "url": "https://github.com/hgpt185/chotu", "tags": ["Java", "Spring Boot", "REST API"] },
+    { "title": "ASCII Image Converter", "url": "https://github.com/hgpt185/AsciiImage", "tags": ["Python", "Django", "REST API", "Image Processing"] },
+    { "title": "Spring Boot E-Commerce API", "url": "https://github.com/hgpt185/spring-boot-ecom-proj", "tags": ["Java", "Spring Boot", "REST API", "Maven"] },
+    { "title": "Packet Sniffer", "url": "https://github.com/hgpt185/Packet-Sniffer", "tags": ["Java", "Networking", "Systems"] },
+    { "title": "Personal Website", "url": "https://github.com/hgpt185/hemesh-gupta-software-engineer", "tags": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"] }
+  ],
+  "sameAs": [
+    "https://github.com/hgpt185",
+    "https://www.linkedin.com/in/hemeshgupta/"
+  ]
+}

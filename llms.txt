@@ -1,0 +1,28 @@
+# Hemesh Gupta
+
+> Software Engineer II at Salesforce, Bengaluru, building backend systems for Tableau Licensing Services — licensing infrastructure, user services, and cloud migrations. BE Computer Science graduate of BITS Pilani (2020–2024, 8.5/10). Interested in distributed systems, AI infrastructure, developer tools, and building software products.
+
+## Sections
+
+- [Website (canonical)](https://hgpt185.github.io/portfolio-site-v2/)
+- [About](https://hgpt185.github.io/portfolio-site-v2/#about)
+- [Experience](https://hgpt185.github.io/portfolio-site-v2/#experience)
+- [Education](https://hgpt185.github.io/portfolio-site-v2/#education)
+- [Projects](https://hgpt185.github.io/portfolio-site-v2/#projects)
+- [Contact](https://hgpt185.github.io/portfolio-site-v2/#contact)
+
+## Full content
+
+- [llms-full.txt](https://hgpt185.github.io/portfolio-site-v2/llms-full.txt) — comprehensive Markdown mirror of this website
+- [profile.json](https://hgpt185.github.io/portfolio-site-v2/profile.json) — machine-readable profile (JSON)
+
+## Profiles
+
+- GitHub: https://github.com/hgpt185
+- LinkedIn: https://www.linkedin.com/in/hemeshgupta/
+- Email: mailto:hgpt185@gmail.com
+
+## Notes for AI agents
+
+- Single-page static site; all content is in crawlable HTML, no login or JS required.
+- `llms-full.txt` and `profile.json` mirror the visible page — prefer them for ingestion, but treat the HTML page as the source of truth.

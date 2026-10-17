@@ -1,0 +1,74 @@
+# Hemesh Gupta — Software Engineer
+
+Canonical website: https://hgpt185.github.io/portfolio-site-v2/
+
+## Identity
+
+- **Name:** Hemesh Gupta
+- **Role:** Software Engineer II at Salesforce, Bengaluru
+- **Focus:** Backend engineering, distributed systems, AI infrastructure, developer tools, software products
+- **Location:** Bengaluru, India
+- **Email:** hgpt185@gmail.com
+- **Education:** BE Computer Science, BITS Pilani (Nov 2020 – Jul 2024), grade 8.5/10
+
+## About
+
+Software Engineer II at Salesforce, Bengaluru, building backend systems for Tableau Licensing Services. Work spans licensing infrastructure, user services, and cloud migrations, with a focus on reliability and scale. Drawn to hard problems: distributed systems, AI infrastructure, and the kind of engineering which leaves an impact. Builds side projects and writes about things encountered along the way.
+
+## Experience
+
+### Salesforce — Software Engineer II (July 2024 – Present)
+Started with Tableau Cloud Manager's User Service, building user lifecycle APIs, saga-based sync to Tableau Pods, bulk operations via Step Functions, and license consumption tracking on multi-region DynamoDB. Then moved to Tableau's Licensing team, working across different licensing services to ship activation, lease management, and freemium licensing.
+
+### Porter — Software Development Intern (Jan 2024 – Jun 2024)
+Part of the Customer Growth & Engagement team. Built backend services powering cashback, referrals, and transactional flows that scaled to production traffic. Ktor, Dagger, clean APIs, and zero P0s across the internship.
+
+### Salesforce — Software Development Intern (Jan 2024 – Jun 2024)
+Built a config drift detection pipeline for Tableau Cloud pods, pulling configs from GitLab repos and S3, diffing against the golden baseline, auto-filing GUS defects, and alerting teams on Slack. Fully automated, zero manual toil.
+
+### Samsung — Software Development Intern (May 2022 – Jul 2022)
+Automated a full regression suite using Selenium and Pytest, replacing hours of manual QA effort per cycle. Cut regression turnaround significantly and freed the team to focus on shipping instead of re-testing.
+
+## Education
+
+### Birla Institute of Technology and Science, Pilani (BITS Pilani)
+- **Degree:** Bachelor of Engineering (BE), Computer Science — Pilani Campus
+- **Period:** Nov 2020 – Jul 2024
+- **Grade:** 8.5/10
+- Graduated with a strong foundation in software development, problem-solving, and innovation.
+
+## Skills
+
+- **Languages:** Java, TypeScript, JavaScript, Python, C
+- **Backend:** Spring Boot, Ktor, REST APIs, DynamoDB (multi-region), AWS Step Functions, saga patterns
+- **Frontend:** React, Tailwind CSS
+- **Realtime/data:** Socket.io, operational transforms, MongoDB
+- **Tools & platforms:** Git, GitLab, S3, Dagger, Slack, Selenium, Pytest, Django
+
+## Projects
+
+- [Real-Time Collaborative Editor](https://github.com/hgpt185/google-docs-clone) — Google Docs-style editor with real-time multi-user collaboration using Socket.io and operational transforms. TypeScript, React, MongoDB.
+- [ERPLAG Compiler](https://github.com/hgpt185/ERPLANG-Compiler) — Complete compiler for ERPLAG in C: lexer, parser, semantic analyzer, and code generator. Written from scratch with no libraries.
+- [chotu: URL Shortener](https://github.com/hgpt185/chotu) — URL shortener service built with Spring Boot. Clean REST API and redirect tracking. Java, Spring Boot.
+- [ASCII Image Converter](https://github.com/hgpt185/AsciiImage) — Converts any image into ASCII art. CLI tool and Django REST API, deployed with WSGI. Python, Django.
+- [Spring Boot E-Commerce API](https://github.com/hgpt185/spring-boot-ecom-proj) — RESTful product catalog and shopping cart API with CRUD, image uploads, and keyword search. Java, Spring Boot.
+- [Packet Sniffer](https://github.com/hgpt185/Packet-Sniffer) — Java network tool for capturing and inspecting live traffic, with port scanning and basic traffic analysis.
+- [Personal Website](https://github.com/hgpt185/hemesh-gupta-software-engineer) — Original portfolio built with React, Tailwind CSS, and Framer Motion.
+
+## Profiles
+
+- GitHub: https://github.com/hgpt185
+- LinkedIn: https://www.linkedin.com/in/hemeshgupta/
+- Email: hgpt185@gmail.com
+
+## Contact
+
+- Email: hgpt185@gmail.com
+- LinkedIn: https://www.linkedin.com/in/hemeshgupta/
+- Location: Bengaluru, India
+
+## Machine-readable references
+
+- llms.txt: https://hgpt185.github.io/portfolio-site-v2/llms.txt
+- profile.json: https://hgpt185.github.io/portfolio-site-v2/profile.json
+- Canonical page: https://hgpt185.github.io/portfolio-site-v2/
