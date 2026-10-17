@@ -122,6 +122,21 @@ def main():
     check("full AI profile dates corrected",
           "Salesforce — Software Development Intern (May 2023 – Jul 2023)" in (ROOT / "llms-full.txt").read_text(encoding="utf-8"))
 
+    # 12. Achievement content consistency across machine-readable sources
+    if isinstance(profile, dict):
+        salesforce_roles = [x for x in profile.get("experience", [])
+                            if x.get("company") == "Salesforce"
+                            and x.get("role") == "Software Engineer II"]
+        highlights = salesforce_roles[0].get("highlights", []) if salesforce_roles else []
+        check("current role has substantive achievement highlights", len(highlights) >= 3)
+        full_text = (ROOT / "llms-full.txt").read_text(encoding="utf-8")
+        check("achievements appear in full AI profile",
+              bool(highlights) and all(h in full_text for h in highlights))
+        check("achievements appear in HTML resume",
+              bool(highlights) and all(h in resume for h in highlights))
+        check("machine profile links HTML resume",
+              profile.get("resumeHtml") == CANONICAL + "resume.html")
+
     print()
     if failures:
         print(f"{len(failures)} check(s) FAILED")
