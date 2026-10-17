@@ -190,7 +190,7 @@ The banner has square corners. The portrait is circular with a (4px) border matc
 A compact icon button sits at the banner's top-right inset (16px). The sun appears in dark mode and the moon in light mode. Its accessible label names the destination theme. Selection persists in localStorage; unavailable storage is tolerated. Default theme is dark.
 
 ### Navigation and contact links
-Social navigation is a row of inline SVG icons (24px) with a (24px) gap; it centers on mobile. The contact section pairs a short intro with a flat, rule-separated list of email, social, and location details; it stacks on mobile. Contact links gain an underline on hover. Hover uses the active accent. Links and buttons share an accent outline (2px) offset by (5px) for keyboard focus. The skip link becomes visible on focus.
+Social navigation is a row of inline SVG icons (24px) with a (24px) gap; it centers on mobile. The contact section pairs a short intro with a flat list of email, social, and location details with no row dividers; it stacks on mobile. Contact links gain an underline on hover. Hover uses the active accent. Links and buttons share an accent outline (2px) offset by (5px) for keyboard focus. The skip link becomes visible on focus.
 
 ### Experience entries
 Plain full-width text entries pair company and role with a right-aligned date on desktop. For multiple designations at one company, the company row shows the overall tenure, followed by plain stacked roles with each role’s dates directly underneath. The shared description sits below all roles and spans the full entry width. Descriptions use compact, relaxed leading. Divider and spacing establish grouping without card backgrounds.

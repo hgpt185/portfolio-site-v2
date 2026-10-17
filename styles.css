@@ -93,8 +93,7 @@ h3 { font-family: var(--title-font); font-size: 24px; line-height: 1.4; font-wei
 .contact-intro h2 { margin-bottom: 16px; }
 .contact-intro p { max-width: 34ch; color: var(--body); font-size: 16px; line-height: 1.7; }
 .contact-details { display: grid; margin: 0; }
-.contact-details > div { display: grid; grid-template-columns: 92px minmax(0, 1fr); align-items: center; gap: 16px; min-height: 62px; border-top: 1px solid var(--rule); }
-.contact-details > div:last-child { border-bottom: 1px solid var(--rule); }
+.contact-details > div { display: grid; grid-template-columns: 92px minmax(0, 1fr); align-items: center; gap: 16px; min-height: 62px; }
 .contact dt { color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .contact dd { min-width: 0; margin: 0; color: var(--body); font-size: 14px; overflow-wrap: anywhere; }
 .contact a { display: inline-flex; min-height: 44px; align-items: center; font-weight: 500; text-decoration: none; text-underline-offset: 4px; }
