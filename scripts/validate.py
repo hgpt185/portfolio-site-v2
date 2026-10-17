@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CANONICAL = "https://hemeshgupta.com/"
 REQUIRED_FILES = [
     "index.html", "robots.txt", "sitemap.xml",
-    "llms.txt", "llms-full.txt", "profile.json", "resume.html",
+    "llms.txt", "llms-full.txt", "profile.json", "resume.html", "ai.txt",
 ]
 
 failures = []

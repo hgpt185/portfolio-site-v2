@@ -4,6 +4,8 @@ Hemesh Gupta's portfolio, closely following the banner, overlapping portrait, ty
 
 **Live:** https://hemeshgupta.com/
 
+Machine-readable: [llms.txt](llms.txt) · [llms-full.txt](llms-full.txt) · [profile.json](profile.json) · [ai.txt](ai.txt) · [resume](resume.html)
+
 About, Experience, Education, Projects, Contact; responsive mobile layout; persistent dark/light themes; accessible social and source-code links. Static HTML/CSS/JavaScript, with no build step.
 
 > **Canonical URL note:** this repo deploys to `https://hemeshgupta.com/`. `hemeshgupta.site` is a separate site not managed by this repository. All metadata, sitemap, and `llms.txt` references use the GitHub Pages URL as canonical.
@@ -23,6 +25,7 @@ Static files served at the site root, no build step required:
 | `llms.txt` | Concise Markdown identity + section links, per the llms.txt proposal |
 | `llms-full.txt` | Comprehensive Markdown mirror of all site content (experience, education, skills, projects, profiles) |
 | `profile.json` | Machine-readable profile (JSON), linked from `<head>` as `rel="alternate"` |
+| `ai.txt` | Pointer file directing AI agents to `llms.txt` |
 
 Structured data: JSON-LD in `index.html` (`Person` + `WebSite` + `ProfilePage` via one `@graph`, consistent `#person` `@id`). Metadata: canonical URL, Open Graph, Twitter card, robots directives.
 

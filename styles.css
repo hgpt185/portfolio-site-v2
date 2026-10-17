@@ -74,6 +74,11 @@ h3 { font-family: var(--title-font); font-size: 24px; line-height: 1.4; font-wei
 .job-period { font-size: 12px; white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
 .job-description { font-size: 14px; line-height: 1.75; margin-top: 14px; color: var(--body); }
 .school-grade { font-size: 12px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; }
+.resume-link { display: inline-block; margin-top: 10px; font-size: 12px; letter-spacing: .02em; color: var(--muted); text-decoration: underline; text-decoration-color: var(--rule); }
+.resume-link:hover { color: var(--accent); }
+.faq-details { display: grid; gap: 20px; }
+.faq-details dt { font-weight: 600; font-size: 15px; color: var(--foreground); }
+.faq-details dd { margin: 6px 0 0; color: var(--body); font-size: 14px; line-height: 1.65; }
 .job-roles { display: grid; gap: 12px; margin-top: 3px; }
 .job-role-title { color: var(--body); font-size: 14px; }
 .job-role-period { margin-top: 2px; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }

@@ -2,7 +2,7 @@
 
 Canonical website: https://hemeshgupta.com/
 
-Recruiter-friendly HTML resume: https://hgpt185.github.io/portfolio-site-v2/resume.html
+Recruiter-friendly HTML resume: https://hemeshgupta.com/resume.html
 
 ## Identity
 
@@ -52,7 +52,7 @@ Automated a full regression suite using Selenium and Pytest, replacing hours of 
 - **Backend:** Spring Boot, Ktor, REST APIs, DynamoDB (multi-region), AWS Step Functions, saga patterns
 - **Frontend:** React, Tailwind CSS
 - **Realtime/data:** Socket.io, operational transforms, MongoDB
-- **Tools & platforms:** Git, GitLab, S3, Dagger, Slack, Selenium, Pytest, Django
+- **Tools & platforms:** Git, GitLab, S3, Dagger, Slack, Selenium, Pytest, Django, Salesforce Hyperforce, KMS, Vault, Bazel
 
 ## Projects
 

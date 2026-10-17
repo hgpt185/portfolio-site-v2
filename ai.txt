@@ -1,0 +1,5 @@
+# AI agents — machine-readable entry point for this site
+# Canonical summary: llms.txt
+# Full content mirror: llms-full.txt
+# Structured profile: profile.json
+https://hemeshgupta.com/llms.txt
