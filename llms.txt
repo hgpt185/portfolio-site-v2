@@ -11,6 +11,10 @@
 - [Projects](https://hgpt185.github.io/portfolio-site-v2/#projects)
 - [Contact](https://hgpt185.github.io/portfolio-site-v2/#contact)
 
+## Resume
+
+- [Accessible HTML resume](https://hgpt185.github.io/portfolio-site-v2/resume.html) — employment history, education and skills
+
 ## Full content
 
 - [llms-full.txt](https://hgpt185.github.io/portfolio-site-v2/llms-full.txt) — comprehensive Markdown mirror of this website
