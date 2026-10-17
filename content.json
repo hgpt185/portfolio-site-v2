@@ -53,7 +53,7 @@
     {
       "company": "Salesforce",
       "role": "Software Development Intern",
-      "period": "Jan 2024 - June 2024",
+      "period": "May 2023 - Jul 2023",
       "description": "Built a config drift detection pipeline for Tableau Cloud pods, pulling configs from GitLab repos and S3, diffing against the golden baseline, auto-filing GUS defects, and alerting teams on Slack. Fully automated, zero manual toil."
     },
     {
