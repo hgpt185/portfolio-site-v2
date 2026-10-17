@@ -30,7 +30,7 @@
       },
       {
         "label": "Education",
-        "value": "CS @ BITS Pilani (Pilani Campus)"
+        "value": "Computer Science Engineering @ BITS Pilani (Pilani Campus)"
       }
     ]
   },
@@ -39,8 +39,9 @@
       "company": "Salesforce",
       "role": "Software Engineer II",
       "previousRole": "Software Engineer I",
-      "period": "July 2024 - Present",
-      "description": "Started with Tableau Cloud Manager's User Service, building user lifecycle APIs, saga-based sync to Tableau Pods, bulk operations via Step Functions, and license consumption tracking on multi-region DynamoDB. Then moved to Tableau's Licensing team, working across different licensing services to ship activation, lease management, and freemium licensing."
+      "period": "Feb 2026 - Present",
+      "description": "Started with Tableau Cloud Manager's User Service, building user lifecycle APIs, saga-based sync to Tableau Pods, bulk operations via Step Functions, and license consumption tracking on multi-region DynamoDB. Then moved to Tableau's Licensing team, working across different licensing services to ship activation, lease management, and freemium licensing.",
+      "previousRolePeriod": "July 2024 - Jan 2026"
     },
     {
       "company": "Porter",

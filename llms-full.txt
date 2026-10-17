@@ -17,7 +17,9 @@ Software Engineer II at Salesforce, Bengaluru, building backend systems for Tabl
 
 ## Experience
 
-### Salesforce — Software Engineer II (July 2024 – Present)
+### Salesforce
+- Software Engineer II (Feb 2026 – Present)
+- Software Engineer I (July 2024 – Jan 2026)
 Started with Tableau Cloud Manager's User Service, building user lifecycle APIs, saga-based sync to Tableau Pods, bulk operations via Step Functions, and license consumption tracking on multi-region DynamoDB. Then moved to Tableau's Licensing team, working across different licensing services to ship activation, lease management, and freemium licensing.
 
 ### Porter — Software Development Intern (Jan 2024 – Jun 2024)
