@@ -2,6 +2,8 @@
 
 Canonical website: https://hgpt185.github.io/portfolio-site-v2/
 
+Recruiter-friendly HTML resume: https://hgpt185.github.io/portfolio-site-v2/resume.html
+
 ## Identity
 
 - **Name:** Hemesh Gupta
@@ -25,7 +27,7 @@ Started with Tableau Cloud Manager's User Service, building user lifecycle APIs,
 ### Porter — Software Development Intern (Jan 2024 – Jun 2024)
 Part of the Customer Growth & Engagement team. Built backend services powering cashback, referrals, and transactional flows that scaled to production traffic. Ktor, Dagger, clean APIs, and zero P0s across the internship.
 
-### Salesforce — Software Development Intern (Jan 2024 – Jun 2024)
+### Salesforce — Software Development Intern (May 2023 – Jul 2023)
 Built a config drift detection pipeline for Tableau Cloud pods, pulling configs from GitLab repos and S3, diffing against the golden baseline, auto-filing GUS defects, and alerting teams on Slack. Fully automated, zero manual toil.
 
 ### Samsung — Software Development Intern (May 2022 – Jul 2022)
