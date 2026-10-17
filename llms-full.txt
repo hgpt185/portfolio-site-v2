@@ -37,7 +37,7 @@ Automated a full regression suite using Selenium and Pytest, replacing hours of 
 - **Degree:** Bachelor of Engineering (BE), Computer Science — Pilani Campus
 - **Period:** Nov 2020 – Jul 2024
 - **Grade:** 8.5/10
-- Graduated with a strong foundation in software development, problem-solving, and innovation.
+- Graduated with a Bachelor of Engineering in Computer Science from BITS Pilani, Pilani campus (2020–2024), building a strong foundation in software development, problem-solving, and innovation.
 
 ## Skills
 
