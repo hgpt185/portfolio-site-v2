@@ -112,7 +112,8 @@ def main():
     # 11. Recruiter-facing HTML resume and consistent internship dates
     resume = (ROOT / "resume.html").read_text(encoding="utf-8")
     check("resume page has canonical URL", CANONICAL + "resume.html" in resume)
-    check("homepage visibly links resume", 'href="resume.html">View accessible resume' in html)
+    check("homepage retains resume discovery metadata",
+          'rel="alternate" type="text/html" href="resume.html"' in html)
     check("Salesforce internship dates corrected in HTML",
           'May 2023 - Jul 2023' in html)
     check("Salesforce internship dates corrected in structured data",

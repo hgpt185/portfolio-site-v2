@@ -62,7 +62,7 @@ Automated a full regression suite using Selenium and Pytest, replacing hours of 
 - [ASCII Image Converter](https://github.com/hgpt185/AsciiImage) — Converts any image into ASCII art. CLI tool and Django REST API, deployed with WSGI. Python, Django.
 - [Spring Boot E-Commerce API](https://github.com/hgpt185/spring-boot-ecom-proj) — RESTful product catalog and shopping cart API with CRUD, image uploads, and keyword search. Java, Spring Boot.
 - [Packet Sniffer](https://github.com/hgpt185/Packet-Sniffer) — Java network tool for capturing and inspecting live traffic, with port scanning and basic traffic analysis.
-- [Personal Website](https://github.com/hgpt185/hemesh-gupta-software-engineer) — Original portfolio built with React, Tailwind CSS, and Framer Motion.
+- [Personal Website](https://github.com/hgpt185/personal-website) — Original portfolio built with React, Tailwind CSS, and Framer Motion.
 
 ## Profiles
 

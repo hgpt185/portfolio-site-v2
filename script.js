@@ -16,9 +16,11 @@ toggle.addEventListener('click', () => {
 });
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Suppress image dragging and the native image save menu without affecting text or links.
+// Keep linked project images usable through the native link context menu.
 for (const eventName of ['dragstart', 'contextmenu']) {
   document.addEventListener(eventName, (event) => {
-    if (event.target instanceof HTMLImageElement) event.preventDefault();
+    if (!(event.target instanceof HTMLImageElement)) return;
+    if (eventName === 'contextmenu' && event.target.closest('a')) return;
+    event.preventDefault();
   });
 }
