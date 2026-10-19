@@ -56,7 +56,7 @@ typography:
     lineHeight: 1.625
   job-description:
     fontFamily: "Inter, sans-serif"
-    fontSize: "14px"
+    fontSize: "16px"
     fontWeight: 400
     lineHeight: 1.75
   project-description:
@@ -117,7 +117,7 @@ components:
   job-row:
     typography: "{typography.job-description}"
     textColor: "{colors.body-dark}"
-    padding: "0 0 30px"
+    padding: "0"
   contact-link:
     textColor: "{colors.body-dark}"
   social-navigation:
@@ -160,17 +160,17 @@ The palette pairs charcoal or clean white with cool neutral text and a restraine
 
 **Display Font:** Poppins, sans-serif. **Section Font:** Bebas Neue, sans-serif. **Body Font:** Inter, sans-serif. Fonts load from Google Fonts.
 
-The hierarchy is role-specific rather than a mathematical scale. The normative roles in frontmatter describe desktop defaults. Identity reduces to (36px) below (768px); project titles reduce to (21px) at (480px) and below. About copy reduces to (16px) at that same small-phone breakpoint. Employment roles use Inter (14px), the contact introduction (16px), contact details (15px, then 14px on small phones), and footer text (11px). Employment periods use tabular numerals.
+The hierarchy is role-specific rather than a mathematical scale. The normative roles in frontmatter describe desktop defaults. Identity scales from (30px) to (36px) below (768px); project titles reduce to (21px) at (480px) and below. About copy reduces to (16px) at that same small-phone breakpoint. Employment roles use Inter (14px), the contact introduction (16px), contact details (15px, then 14px on small phones), and footer text (11px). Employment periods use tabular numerals.
 
 **The Three Roles Rule.** Use Poppins for identity and item titles, Bebas Neue for section headings, and Inter for reading text and metadata.
 
 ## Layout
 
-Desktop uses one centered outer container (896px maximum, including 24px horizontal padding) with top/bottom padding (80px / 32px). The banner is (256px) high; the identity row has (32px) horizontal inset. A right-aligned portrait (192px) overlaps the banner by (96px). The identity and social links sit to its left. The introductory block ends with a fine divider.
+Desktop uses one centered outer container (896px maximum, including 24px horizontal padding) with top/bottom padding (80px / 32px). The banner is (256px) high; the identity uses a two-column grid with a (32px) horizontal inset and a (32px) gap below the banner. A right-aligned portrait (192px) overlaps the banner by (28px), independently of the text height. The name, role, and social links form a left-aligned stack beside it, with (8px) between name and role and (20px) before the social links. The introductory block ends with (40px) of space and a fine divider.
 
-Sections use padding (62px 16px 44px) and bottom rules. Headings ordinarily have (24px) bottom margin, with (40px) before the project list. Job entries use (32px) gaps and internal dividers. Each desktop project pairs two equal columns, an image and descriptive content, with a (32px) column gap and (80px) row gap. Images preserve a (16:9) frame.
+Sections use padding (62px 16px 44px) and bottom rules. Headings ordinarily have (24px) bottom margin, with (40px) before the project list. Job entries use (48px) of open space between them, reducing to (40px) on mobile; horizontal rules are reserved for section boundaries. Each desktop project pairs two equal columns, an image and descriptive content, with a (32px) column gap and (80px) row gap. Images preserve a (16:9) frame.
 
-At (767px) and below, top container padding becomes (40px), the banner becomes (192px), and the identity centers below a (160px) portrait overlapping by (80px). Sections use top/bottom padding (48px / 36px); projects stack with a (24px) internal gap and (64px) row gap. Project title groups center; descriptions remain left aligned.
+At (767px) and below, top container padding becomes (40px), the banner becomes (192px), and the identity centers (24px) below a (160px) portrait overlapping by (74px). The name scales to fit small phones without crowding the edges. Sections use top/bottom padding (48px / 36px); projects stack with a (24px) internal gap and (64px) row gap. Project title groups center; descriptions remain left aligned.
 
 At (480px) and below, the outer padding is (24px 12px), banner height is (180px), and section horizontal inset is (10px). Employment headings stack, placing periods below roles. Metadata spacing contracts. Footer and contact content remain simple text rows.
 
@@ -193,7 +193,7 @@ A compact icon button sits at the banner's top-right inset (16px). The sun appea
 Social navigation is a row of inline SVG icons (24px) with a (24px) gap; it centers on mobile. The contact section places its heading above two columns: an introduction and prominent underlined email link on the left; aligned LinkedIn, GitHub, and X rows on the right. Social links have small external-link arrows and no row dividers. The columns stack on mobile, with 44px link targets. Contact links gain an underline on hover. Hover uses the active accent. Links and buttons share an accent outline (2px) offset by (5px) for keyboard focus. The skip link becomes visible on focus.
 
 ### Experience entries
-Plain full-width text entries pair company and role with a right-aligned date on desktop. For multiple designations at one company, the company row shows the overall tenure, followed by a semantic list of roles with each role’s dates directly underneath. Orange markers (#ef9959 dark / #bd5c16 light) connect through a fine vertical line to show progression. Roles use 28px left padding and 24px vertical separation. The shared description sits below all roles and spans the full entry width. Descriptions use compact, relaxed leading. Divider and spacing establish grouping without card backgrounds.
+Plain full-width text entries pair company and role with a right-aligned date on desktop. For multiple designations at one company, the company row shows the overall tenure, followed by a semantic list of roles with each role’s dates directly underneath. Orange markers (#ef9959 dark / #bd5c16 light) connect through a fine vertical line to show progression. Roles use 28px left padding and 24px vertical separation. The shared description sits below all roles and spans the full entry width. Descriptions use compact, relaxed leading. Open space separates entries without internal dividers or card backgrounds. Company headings and their closely grouped role details establish each entry; horizontal rules belong to section boundaries.
 
 ### Project rows
 Project titles and source icons link to the real repository. Images link to the matching project repository in a new tab. Hover and keyboard focus apply a gentle 1.035× zoom and reveal a charcoal “View on GitHub” label with an external-link arrow. Touch devices show the label by default. Focus outlines remain outside the image frame. Image selection and dragging are disabled; linked images retain the native link context menu. Title and source icon share a baseline; the icon is (20px). Descriptions and a wrapping technology list follow. Technology labels are plain muted text, not pill chips. Reduced motion removes image transitions and transforms and changes smooth scrolling to automatic.
